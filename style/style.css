@@ -1,0 +1,16 @@
+
+#navbar {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+}
+body {
+    font-family: 'Epilogue', sans-serif;
+
+}
+ul {
+    font-family: 'Epilogue', sans-serif;
+}
+.dropdown-item {
+    display: flex;
+    justify-content: space-evenly;
+}

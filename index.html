@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="/style/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bruno+Ace+SC&family=Epilogue:wght@500;700&family=Raleway:wght@100&display=swap" rel="stylesheet">  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<main>
+  <nav  class="navbar navbar-expand-sm navbar-light bg-light">
+      <div class="container d-flex justify-content-between">
+      <a class="navbar-brand" id="navbar" href="#">Snap</a>
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Features</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownId">
+              <a class="dropdown-item" href="#"><img class="m-2" src="/images/icon-todo.svg" alt="">Todo List </a>
+              <a class="dropdown-item" href="#"><img class="m-2" src="/images/icon-calendar.svg" alt="">Calendar</a>
+              <a class="dropdown-item" href="#"><img class="m-2" src="/images/icon-reminders.svg" alt="">Reminders</a>
+              <a class="dropdown-item" href="#"><img class="m-2" src="/images/icon-planning.svg" alt="">Planning</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Companys</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownId">
+              <a class="dropdown-item" href="#">History</a>
+              <a class="dropdown-item" href="#">Our Team</a>
+              <a class="dropdown-item" href="#">Blog</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link  " href="#" >Cereers</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link  " href="#" >About</a>
+          </li>
+        </ul>
+        <form class="d-flex my-2 my-lg-0 ">
+          <button class="btn btn-white my-2 my-sm-0" type="submit">Login</button>
+          <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Register</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+</main>
+  
+<div class="container">
+  <div class="row justify-content-around align-items-center g-2">
+    <div class="col-lg-6 col-sm-12  ">
+      <div class="row justify-content-start align-items-center g-2">
+        
+        <h1 style=" text-wrap:balance;   font-family: 'Epilogue', sans-serif; font-weight: 700 ;font-size: 68px;  ">Make remote work</h1>
+      </div>
+      <div class="row align-items-center g-2 d-flex justify-content-start">
+        <div class="col-10 h4 text-secondary ">Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.
+          <div class="row d-flex justify-content-start  align-items-end"> <button style="width: auto ;margin: 5%;" type="button" class="btn  btn-dark text-nowrap " data-bs-toggle="button" aria-pressed="false" autocomplete="off">Learn More</button>
+        </div>
+       </div>
+        
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-8 "><img class="img-fluid" src="/images/image-hero-desktop.png" alt=""></div>
+  </div>
+</div>
+
+ <footer class="d-flex justify-content-center flex-column text-secondary m-1 align-items-center" style="margin-top: 6%;">
+  <p>For more Info , or for feadbacks </p>
+  <a class="link-underline text-dark justify-self-center link-underline-opacity-0" href="mailto:snap@gmail.com">snap@gmail.com</a>
+ </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
